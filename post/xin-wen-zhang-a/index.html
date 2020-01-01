@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>pmgouzi</title>
+<title>新文章啊 | pmgouzi</title>
 <meta name="description" content="与各位狗哥分享做产品的乐趣～" />
 <link rel="shortcut icon" href="https://pmgouzi.github.io/favicon.ico?v=1577895685186">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -70,48 +70,73 @@
   </div>
 </div>
 
-    
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              新文章啊
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-01-02
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>就这样写写吧～<br>
+厉害了我的哥！</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://pmgouzi.github.io/post/hello-gridea">
+              <h3 class="post-title">
+                Hello Gridea
+              </h3>
+            </a>
+          </div>
         
 
-<div class="archives-container">
-  
-    <h2 class="year">2020</h2>
-    
-      
-        <a href="https://pmgouzi.github.io/post/xin-wen-zhang-a" class="post">
-          <h2 class="post-title">
-            新文章啊
-          </h2>
-          <div class="time">2020-01-02</div>
-        </a>
-      
-    
-      
-    
-  
-    <h2 class="year">2018</h2>
-    
-      
-    
-      
-        <a href="https://pmgouzi.github.io/post/hello-gridea" class="post">
-          <h2 class="post-title">
-            Hello Gridea
-          </h2>
-          <div class="time">2018-12-12</div>
-        </a>
-      
-    
-  
-</div>
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-    
-        <div class="pagination-container">
-  
-  
-</div>
+<div id="gitalk-container"></div>
 
-    
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '673d9ed3de40bd71fbb6',
+    clientSecret: '393e087b9dea3132d0f7145292f935a3e1ee6fd9',
+    repo: 'https://pmgouzi.github.io',
+    owner: 'pmgouzi',
+    admin: ['pmgouzi'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+
         <div class="site-footer">
   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
   <a class="rss" href="https://pmgouzi.github.io/atom.xml" target="_blank">RSS</a>
