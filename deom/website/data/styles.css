@@ -1,0 +1,106 @@
+﻿.ax_default {
+  font-family:'ArialMT', 'Arial', sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  letter-spacing:normal;
+  color:#333333;
+  vertical-align:none;
+  text-align:center;
+  line-height:normal;
+  text-transform:none;
+}
+._图片 {
+  color:#000000;
+}
+.box_2 {
+}
+.shape {
+}
+.box_3 {
+}
+._形状 {
+}
+._图片_ {
+}
+.primary_button {
+  color:#FFFFFF;
+}
+._一级标题 {
+  font-family:'ArialMT', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+._二级标题 {
+  font-family:'ArialMT', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+._三级标题 {
+  font-family:'ArialMT', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:18px;
+  text-align:left;
+}
+._四级标题 {
+  font-family:'ArialMT', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+}
+._五级标题 {
+  font-family:'ArialMT', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  text-align:left;
+}
+._六级标题 {
+  font-family:'ArialMT', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:10px;
+  text-align:left;
+}
+.label {
+  font-size:14px;
+  text-align:left;
+}
+._文本段落 {
+  text-align:left;
+}
+.line {
+}
+._表单提示 {
+  color:#999999;
+}
+._表单禁用 {
+}
+._流程形状 {
+}
+.image {
+  color:#000000;
+}
+.heading_1 {
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial', sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+._图片_1 {
+  color:#000000;
+}
+._默认样式 {
+}
+._文本链接 {
+  color:#0000FF;
+}
+.icon {
+}
+textarea, select, input, button { outline: none; }
